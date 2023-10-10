@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    background-image: url('img/backgroundHeader.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: solid 5px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-image: url('img/bakcgroundContent.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    margin: 20px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row; /* Display children in a row */
+    align-items: center;
+}
+
+.p2{
+    height: 225px;
+    margin-left: 5px;
+    display: inline;
+    align-content: flex-start;
+}
+
+button{
+    width: 225px;
+    height: 40px;
+}
+
+.left {
+    flex: 0.5; /* Takes up 50% of the container's width */
+}
+
+.right {
+    margin-left: 10px;
+    flex: 0.5;
+    float: right;
+}
+
+#pfp{
+    width: 225px;
+    height: 225px;
+    margin: 0;
+    padding: 0;
+}
+
+.skillIcon{
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#go2{
+    margin-left: 76.5%;
+}
+
+.spacer{
+    color: #f0f0f0;
+    margin-bottom: 50px;
+}
+.spacerTop{
+    color: #f0f0f0;
+    margin-bottom: 100px;
+}
+
+#about-button{
+    margin-left: 5px;
+}
+
+.workImg{
+    border-radius: 10px;
+}
+
+#webgl_iframe{
+    width: 810px;
+    height: 660px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
