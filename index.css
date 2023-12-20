@@ -126,3 +126,12 @@ button{
     border-radius: 10px;
 }
 
+a:any-link {
+    text-decoration: none;
+    color: black;
+}
+
+.FloatL{
+    float: left;
+}
+
